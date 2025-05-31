@@ -22,6 +22,12 @@ volumes:
   redis-data:
 ```
 
+Run docker 
+
+```
+docker-compose up -d
+```
+
 [link](https://www.example.com/my%20great%20page)
 
 What is Redis ?
