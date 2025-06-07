@@ -32,3 +32,9 @@ create table product (
 # if we are using local redis or cloud but here we use docker so there is no need of username or password
 #spring.data.redis.username=
 #spring.data.redis.password=
+
+## redis-cli
+
+```cmd
+> docker exec -it bcb6e93a18931542a0462b017c5537dc43182081f9eb0355250879283d7227ef redis-cli
+```
