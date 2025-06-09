@@ -1,14 +1,26 @@
+## Configuring info endpoint
 info:
   app:
     name: product-service
-    version: 1.0.0
     description: Product management microservice
+    version: 1.0.0
 
 management:
   endpoints:
     web:
+      base-path=/details:
       exposure:
-        include: info
+        include: "health, info"
+  endpoint:
+    jackson:
+      isolated-object-mapper: true
+    health:
+      show-details: always
+    info:
+      env:
+        enabled: true
+      build:
+        enabled: true
 
 spring:
   application:

@@ -38,3 +38,11 @@ create table product (
 ```cmd
 > docker exec -it bcb6e93a18931542a0462b017c5537dc43182081f9eb0355250879283d7227ef redis-cli
 ```
+
+## Actuator
+
+- http://localhost:8080/actuator
+- http://localhost:8080/actuator/health
+- http://localhost:8080/actuator/metrics
+- http://localhost:8080/actuator/info
+
