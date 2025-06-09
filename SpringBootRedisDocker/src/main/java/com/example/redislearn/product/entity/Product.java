@@ -1,4 +1,4 @@
-package com.example.SpringBootRedisDocker.entity;
+package com.example.redislearn.product.entity;
 
 import jakarta.persistence.*;
 

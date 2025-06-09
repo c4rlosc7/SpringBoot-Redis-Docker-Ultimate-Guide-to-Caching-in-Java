@@ -1,8 +1,8 @@
-package com.example.SpringBootRedisDocker.services;
+package com.example.redislearn.product.services;
 
-import com.example.SpringBootRedisDocker.dto.ProductDto;
-import com.example.SpringBootRedisDocker.entity.Product;
-import com.example.SpringBootRedisDocker.repository.ProductRepository;
+import com.example.redislearn.product.dto.ProductDto;
+import com.example.redislearn.product.entity.Product;
+import com.example.redislearn.product.repository.ProductRepository;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;

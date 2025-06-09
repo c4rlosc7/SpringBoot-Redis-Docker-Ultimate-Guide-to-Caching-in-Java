@@ -1,4 +1,4 @@
-package com.example.SpringBootRedisDocker.dto;
+package com.example.redislearn.product.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;

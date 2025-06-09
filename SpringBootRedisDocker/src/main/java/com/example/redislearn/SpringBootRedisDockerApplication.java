@@ -1,4 +1,4 @@
-package com.example.SpringBootRedisDocker;
+package com.example.redislearn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

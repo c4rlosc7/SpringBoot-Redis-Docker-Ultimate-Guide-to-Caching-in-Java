@@ -1,4 +1,4 @@
-package com.example.SpringBootRedisDocker;
+package com.example.redislearn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

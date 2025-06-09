@@ -1,6 +1,6 @@
-package com.example.SpringBootRedisDocker.repository;
+package com.example.redislearn.product.repository;
 
-import com.example.SpringBootRedisDocker.entity.Product;
+import com.example.redislearn.product.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

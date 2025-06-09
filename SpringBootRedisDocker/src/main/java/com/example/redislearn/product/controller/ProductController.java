@@ -1,7 +1,7 @@
-package com.example.SpringBootRedisDocker.controller;
+package com.example.redislearn.product.controller;
 
-import com.example.SpringBootRedisDocker.dto.ProductDto;
-import com.example.SpringBootRedisDocker.services.ProductService;
+import com.example.redislearn.product.dto.ProductDto;
+import com.example.redislearn.product.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
